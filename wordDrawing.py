@@ -1,7 +1,7 @@
 import turtle
 t = turtle.Pen()
-word = input("Type in a word or sentence. (No special characters)")
-
+print("For long sentences enter in fullscreen")
+word = input("Type in a word or sentence. (No special characters)\n\n")
 
 cool = list(word)
 lenght = len(word)
@@ -989,7 +989,7 @@ def letterz():
 
 t.up()
 if lenght > 7 and lenght < 15:
-    t.backward(lenght * 40)
+    t.backward(lenght * 70)
 elif lenght > 14:
     t.backward(lenght * 20)
 else:
