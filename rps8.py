@@ -102,3 +102,6 @@ def rps(name='PlayerOne'):
 if __name__ == "__main__":
     rock_paper_scissors = rps(args.name)
     rock_paper_scissors()
+
+if __name__ != "__main__":
+    print("Hello World!")
