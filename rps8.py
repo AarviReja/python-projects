@@ -2,6 +2,20 @@ import sys
 import random
 from enum import Enum
 
+if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Provides a personalized game experience"
+    )
+
+    parser.add_argument(
+        "-n", "--name", metavar="name",
+        required=True, help="The name of the person playing the game."
+    )
+
+    args = parser.parse_args()
+
 def rps(name='PlayerOne'):
     game_count = 0
     player_wins = 0
@@ -83,18 +97,5 @@ def rps(name='PlayerOne'):
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Provides a personalized game experience"
-    )
-
-    parser.add_argument(
-        "-n", "--name", metavar="name",
-        required=True, help="The name of the person playing the game."
-    )
-
-    args = parser.parse_args()
-
     rock_paper_scissors = rps(args.name)
     rock_paper_scissors()
