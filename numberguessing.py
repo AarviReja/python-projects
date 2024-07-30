@@ -54,4 +54,5 @@ def numberguessing():
         return None
     
 
-numberguessing()
+if __name__ == "__main__":
+    numberguessing()
