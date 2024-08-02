@@ -32,7 +32,7 @@ def play_game(name='PlayerOne'):
                 if __name__ == "__main__":
                     sys.exit(f"Thanks for playing {name}!\nBye!")
                 elif __name__ != "__main":
-                    print(f"Thanks for playing {name}!\n Bye!")
+                    print(f"Thanks for playing {name}!\nBye!")
             else:
                 print(f"Sorry {name}, what did you want to do?")
                 return play_again()
