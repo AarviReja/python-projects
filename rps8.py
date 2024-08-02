@@ -95,7 +95,7 @@ def rps(name='PlayerOne'):
             if __name__ == "__main__":
                 sys.exit(f"Bye {name}! 👋")
             else:
-                print(f"Bye {name}! 👋")
+                return
     return play_rps
 
 
