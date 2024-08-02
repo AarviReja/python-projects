@@ -1,9 +1,14 @@
 import random
 import sys
 
-playagain = "y"
 games_played = 0
 user_wins = 0
+
+
+
+if games_played == 0:
+    playagain = "y"
+    print(playagain)
 
 if __name__ == "__main__":
     import argparse
@@ -23,6 +28,7 @@ def play_game(name='PlayerOne'):
     if __name__ != "__main__":
         global playagain
     while playagain.lower() == "y":
+        
         def play_again():
             playagain = input("\nY for Yes or\nQ to Quit\n\n")
             
