@@ -1,6 +1,6 @@
 import argparse
 import rps8
-import guess_number
+import guess_number2
 import sys
 
 parser = argparse.ArgumentParser(
@@ -41,7 +41,7 @@ def arcade(name):
             print(f"Welcome back to the arcade {name}!")
             return pick_game()
         elif game == 2:
-            guess_number.play_game(name)
+            guess_number2.play_game(name)
             print(f"Welcome back to the arcade {name}!")
             return pick_game()
         
