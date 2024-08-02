@@ -9,7 +9,7 @@ def play_game(name='PlayerOne'):
         if welcome_back == True:
             print(f"\n {name}, welcome back to the Arcade menu.")
 
-        playerchoice = input("\n Please choose a game:\n1 = Rock Paper Scissors\n2 = Guess My Number\n\nOr press 'x' to exit the Arcade\n\n")
+        playerchoice = input("\nPlease choose a game:\n1 = Rock Paper Scissors\n2 = Guess My Number\n\nOr press 'x' to exit the Arcade\n\n")
 
         if playerchoice not in ["1", "2", "x"]:
             print(f"\n{name}, please enter 1, 2, x")
