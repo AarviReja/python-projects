@@ -1,6 +1,8 @@
 import sys
 import random
 
+# Wasn't able to build on my own because I kept coming across an issue that I didn't know how to fix.
+
 def guess_number(name='PlayerOne'):
     game_count = 0
     player_wins = 0
