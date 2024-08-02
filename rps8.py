@@ -96,6 +96,7 @@ def rps(name='PlayerOne'):
                 sys.exit(f"Bye {name}! 👋")
             else:
                 return
+            
     return play_rps
 
 
