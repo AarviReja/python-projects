@@ -4,8 +4,6 @@ import sys
 games_played = 0
 user_wins = 0
 
-
-
 if games_played == 0:
     playagain = "y"
     print(playagain)
