@@ -1,0 +1,19 @@
+To do:
+~ Add actual graphics(?)
+~ Allow user to pick number of rings
+~ Add keyboard option(?)
+~ Allow user to customize rings/pegs/theme/background(?)
+...
+
+Done:
+~ Make classes & objects for pegs/rings
+~ Make sure code runs with a screen & quit button
+~ Allow user to drag rings
+~ Allow user to pick up/set down rings by clicking pegs
+~ Make sure rings can only be set down on rings of higher value
+~ Add restart button
+~ Add number moves
+~ Detect when user wins
+~ Add a timer
+~ Add comments
+~ Make code efficient
